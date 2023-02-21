@@ -1,0 +1,50 @@
+
+.cmain{
+    display:flex;
+min-height: 720px;
+height: auto;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+    width:100%;
+flex-wrap: wrap;
+  padding: 10px;
+  z-index: 0;
+  
+  }
+  .side-menu{
+  
+    padding: 10px;
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    width: 200px;
+  border-radius: 10px;
+    height: 100%;
+    left: 5px;
+    background-color:rgb(242, 248, 247)
+  }
+  .qsection{
+border-bottom:grey 3px solid;
+      height: 45%;
+      width: 85%;
+      position: absolute;
+      right: 15px; 
+    top: 10%;
+    overflow: auto;
+    background-color:rgb(242, 248, 247);
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+  }
+  .asection{
+      align-items: baseline;
+    position: absolute;
+    border-bottom:grey 3px solid;
+    height: 50%;
+    width: 85%;
+    right: 15px;
+  top: 60%;
+  overflow: auto;
+  background-color:rgb(242, 248, 247);
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+  }

@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap');
+@import "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css";
+
+.loginpanel{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    width: 500px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    background: linear-gradient(140deg, rgba(221,145,102,1) 11%, rgba(181,226,150,1) 71%);
+    display: flex;
+    flex-direction: column;
+}
+.form-select {
+padding: 10px;
+}
+ h2{
+    float: left;
+    margin: 0;
+    font-size: 40px;
+    border-bottom: white 6px solid;
+    margin-bottom: 40px;
+    padding: 5px 0;
+    width:max-content;
+}
+h4{
+    margin: -10px;
+    padding: 20px 0;
+   font-size: 15px;
+}
+
+.textbox{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid white;
+  
+}
+.textbox i{
+    width: 26px;
+    float: left;
+    text-align: center;
+}
+.textbox input{
+    border: none;
+    outline: none;
+    background: none;
+    color: black;
+    font-size: 18px;
+    width: 80%;
+    float: left;
+    margin: 0 10px;
+    
+}
+.textbox:hover{
+    border-bottom: 2px solid black; 
+    transition: 0.5s ease;
+}
+
+.button{
+display: flex;
+justify-content: center;
+}
+.button input{
+    margin-right: 16px;
+}
+
+#dept,#section{
+   background: none;
+   border: whitesmoke solid 2px;
+   border-radius: 5px;
+   width:max-content ;
+   color: black
+}
+#ppic{
+   
+    border-radius: 50%;
+}
+.pic{
+    display: flex;
+   
+}
+.m{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(/img/b6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+   
+}

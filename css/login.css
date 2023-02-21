@@ -1,0 +1,87 @@
+body{
+    background-image: url('/img/b4.jpg');
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+form{
+    border: white solid 2px;
+    padding: 10px;
+    line-height: 30px;
+    border-radius: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    word-spacing: 3px;
+   width: 300px;
+   height: 350px;
+    margin: 10% auto;
+    background-color: rgba(51, 52, 54, 0.555);
+    display: flex;
+    flex-direction: column;
+}
+
+.textfield{
+word-spacing: 5px;
+padding-top: 20px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;
+border-bottom: whitesmoke 3px solid;
+border-top: transparent;
+border-left: transparent;
+border-right: transparent;
+background:transparent;
+text-align: center;
+color: white;
+outline: none;
+
+}
+
+.textfield:hover{
+    padding :8,0;
+    margin: 8,0;
+    outline: none;
+    border: none;
+    background: none;
+   border-bottom: gray 3px solid;
+}
+.textfield input{
+    outline: none;
+    border: none;
+    background: none;
+    float: left;
+    margin: 0 10px;
+    width: 80px;
+
+}
+
+.btn{
+    font-size: 15px;
+    border-radius: 15px;
+    background:none;
+    border: black,solid;
+    /*border-bottom: black solid 3px;*/
+    padding: 10px;
+    margin: 10px;
+    color:whitesmoke;
+    cursor: pointer;
+    outline: none;
+}
+.btn:hover{
+    border-color: whitesmoke;
+    background-color: rgba(121, 118, 121, 0.411);
+    color: black;
+}
+.form_heading{
+font-weight: bold;
+ text-align: center;
+ text-decoration: underline;
+}
+#link{
+    text-align: right;
+    text-decoration: none;
+color: whitesmoke;
+}
+a{
+    color: rgb(226, 13, 13);
+}
